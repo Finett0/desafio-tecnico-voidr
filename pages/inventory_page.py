@@ -17,3 +17,9 @@ class InventoryPage:
 
     def go_to_cart(self):
         self.page.click(self.cart_icon)
+
+    def sort_products(self,sort_option: str):
+        self.page.select_option(".product_sort_container",sort_option)
+
+    def get_product_names(self) -> list[str]:
+        return self.page.eval_on_selector_all(".inventory_item_name", "elements => elements.map(e => e.innerText)")
