@@ -36,7 +36,6 @@ def test_correct_item(setup):
     cart_product_name = page.locator(".inventory_item_name").first.text_content()
     assert product_name == cart_product_name
 
-# No seu arquivo test_cart.py, modifique o teste test_add_multiple_items_to_cart
 def test_add_multiple_items_to_cart(setup):
     page = setup
     login_page = LoginPage(page)
