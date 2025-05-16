@@ -28,3 +28,10 @@ def test_error_message_on_empty_password(setup):
     login_page.goto()
     login_page.login("standard_user", "")
     assert login_page.get_error_message() == "Epic sadface: Password is required"
+
+def test_login_locked_user(setup):
+    page = setup
+    login_page = LoginPage(page)
+    login_page.goto()
+    login_page.login("locked_out_user", "secret_sauce")
+    assert "Epic sadface: Sorry, this user has been locked out" in login_page.get_error_message()
