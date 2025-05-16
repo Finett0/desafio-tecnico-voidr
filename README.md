@@ -87,7 +87,7 @@ Este projeto inclui 18 testes automatizados, cobrindo as principais funcionalida
 - Adicionar múltiplos itens ao carrinho
 - Remover item do carrinho
 
-# Checkout (3 testes)
+### Checkout (3 testes)
 
 - Processo completo de checkout
 - Validação de campos obrigatórios
