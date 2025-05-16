@@ -41,17 +41,13 @@ def test_add_multiple_items_to_cart(setup):
     login_page = LoginPage(page)
     inventory_page = InventoryPage(page)
     login_page.goto()
-    page.wait_for_selector("#login-button", state="visible")
     login_page.login("standard_user", "secret_sauce")
-    page.wait_for_selector(".inventory_container", state="visible")
     inventory_page.add_item_to_cart(0)
     inventory_page.add_item_to_cart(1)
     inventory_page.add_item_to_cart(2)
-    page.wait_for_selector(".shopping_cart_badge", state="visible")
     cart_count = page.text_content(".shopping_cart_badge")
     assert cart_count == "3"
     inventory_page.go_to_cart()
-    page.wait_for_selector(".cart_list", state="visible")
     assert "cart.html" in page.url
     assert page.locator(".cart_item").count() == 3
 
