@@ -2,12 +2,6 @@
 
 Projeto de automação de testes para a aplicação web [Sauce Demo](https://www.saucedemo.com/) utilizando **Playwright** e **Python**, seguindo o padrão **Page Object Model (POM)**.
 
-##  Requisitos
-
-- Python 3.8 ou superior  
-- Playwright  
-- Pytest  
-
 ---
 
 ##  Configuração do Ambiente
@@ -38,7 +32,9 @@ pip install -r requirements.txt
 playwright install
 ```
 
-## Executando os Testes
+---
+
+## Comandos para executar os testes
 ```bash
 pytest tests/
 ```
@@ -60,6 +56,7 @@ Executar o relatório detalhado:
 ```bash
 pytest -v
 ```
+---
 
 
 
