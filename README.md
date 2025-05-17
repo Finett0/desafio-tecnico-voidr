@@ -59,7 +59,7 @@ pytest -v
 ---
 
 ## Documentos
-[Documentação do Projeto de Automação de Testes - Sauce Demo](./docs/Documentação/nome-do-arquivo.docx) - Contém detalhes sobre o desenvolvimento e implementação do projeto
+[Documentação do Projeto de Automação de Testes - Sauce Demo](/docs/Documentação%20do%20Projeto%20de%20Automação%20de%20Testes.docx) - Contém detalhes sobre o desenvolvimento e implementação do projeto
 
 
 
