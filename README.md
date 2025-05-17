@@ -17,7 +17,7 @@ cd desafio-tecnico-voidr
 ```bash
 python -m venv venv
 # No Windows:
-venv\Scripts\activate
+source venv/Scripts/activate
 # No macOS/Linux:
 source venv/bin/activate
 ```
