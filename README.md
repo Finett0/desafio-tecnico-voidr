@@ -62,9 +62,10 @@ pytest -v
 A documentação está disponivel tanto em Markdown como em .docx caso queira fazer download, segue o link [Documentação do Projeto de Automação de Testes - Sauce Demo](/docs/documentacao.md) - contém detalhes sobre o desenvolvimento e implementação do projeto
 
 ---
-## Demosntração dos Resultados
+### Demonstração dos Resultados
 
-[![Video está armazenado no youtube porem está como Não listado, para acessar acesse o link a seguir](https://img.youtube.com/vi/93YxwHye3Ps/0.jpg)](https://www.youtube.com/watch?v=93YxwHye3Ps)
+[O Video está no youtube porem está como não listado, para ver o video clique no link](https://www.youtube.com/watch?v=93YxwHye3Ps)
+
 
 
 
