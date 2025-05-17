@@ -64,6 +64,7 @@ A documentação está disponivel tanto em Markdown como em .docx caso queira fa
 ---
 ## Demosntração dos Resultados
 
-[![Apresentação no YouTube](https://img.youtube.com/vi/https:/93YxwHye3Ps/0.jpg)](https://www.youtube.com/watch?v=93YxwHye3Ps)
+[![Video está armazenado no youtube porem está como Não listado, para acessar acesse o link a seguir](https://img.youtube.com/vi/93YxwHye3Ps/0.jpg)](https://www.youtube.com/watch?v=93YxwHye3Ps)
+
 
 
